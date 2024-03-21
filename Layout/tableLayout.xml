@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- android:stretchColumns="0,1,2" -->
+
+    <TableRow>
+        <Button
+            android:id="@+id/tlbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(0,0)"/>
+
+        <Button
+            android:id="@+id/tlbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(0,1)"/>
+
+        <Button
+            android:id="@+id/tlbtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(0,2)"/>
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/tlbtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1,0)"
+            android:layout_column="0"/>
+
+        <Button
+            android:id="@+id/tlbtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1,1)"
+            android:layout_column="1"/>
+
+        <Button
+            android:id="@+id/tlbtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1,2)"
+            android:layout_column="2"/>
+
+    </TableRow>
+</TableLayout>
