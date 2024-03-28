@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FF0000" /> <!-- 紅色背景 -->
+    <corners android:radius="0dp"/> <!-- 直角 -->
+    <!-- 長寬比設定在使用這個drawable的元素上進行，例如Button或是View -->
+</shape>
